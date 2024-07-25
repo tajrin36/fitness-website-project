@@ -800,10 +800,13 @@ main {
     width: 200px;
   }
   .exercise-2 {
-    width: 170px;
+    width: 160px;
   }
   .exercise-2 {
-    background-position-x: 70%;
+     background-position-x: 70%;
+    /* background-position-y: 30%;  */
+    /* background-position: center; */
+    background-size: cover;
   }
   .exercise-4-5-6 {
     grid-template-columns: 135px 235px;
@@ -814,7 +817,7 @@ main {
     background-position-x: 30%;
   }
   .exercise-5 {
-    width: 235px;
+    width: 230px;
   }
   .team-image-div-1,
   .team-image-div-2 {
@@ -838,14 +841,15 @@ main {
     /* border: 1px solid red; */
   }
   .protein-1 {
-    width: 190px;
+    width: 175px;
   }
   .protein-image-1 {
-    width: 190px;
+    width: 175px;
   }
   .protein-image-1 > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: center;
   }
 }
