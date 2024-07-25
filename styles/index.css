@@ -398,59 +398,88 @@ main {
   height: 250px;
   width: 300px;
   background-position: center;
-  background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url(../images/exercise1.jpg) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(6, 255, 210, 0.5) 0%,
+      rgba(6, 255, 210, 0.5) 100%
+    ),
+    url(../images/exercise1.jpg) lightgray 50% / cover no-repeat;
 }
 .exercise-2 {
   /* border: 1px solid blue; */
   height: 250px;
   width: 500px;
-  background: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%), url(../images/exercise2.png) lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.3) 0%,
+      rgba(255, 0, 0, 0.3) 100%
+    ),
+    url(../images/exercise2.png) lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
   background-position: center;
 }
 .exercise-3 {
   /* border: 1px solid aqua; */
   height: 250px;
   width: 345px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise3.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../images/exercise3.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  
 }
 .exercise-4 {
   /* border: 1px solid magenta; */
   height: 245px;
   width: 400px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise4.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../images/exercise4.png) lightgray 50% / cover no-repeat;
   background-position: center;
 }
 .exercise-5 {
   /* border: 1px solid gold; */
   height: 245px;
   width: 350px;
-  background: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%), url(../images/exercise5.jpg) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(66, 255, 0, 0.3) 0%,
+      rgba(66, 255, 0, 0.3) 100%
+    ),
+    url(../images/exercise5.jpg) lightgray 50% / cover no-repeat;
   background-position: center;
 }
 .exercise-6 {
   /* border: 1px solid magenta; */
   height: 245px;
   width: 400px;
-  background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url(../images/exercise6.jpg) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 71, 255, 0.3) 0%,
+      rgba(0, 71, 255, 0.3) 100%
+    ),
+    url(../images/exercise6.jpg) lightgray 50% / cover no-repeat;
   background-position: center;
 }
 /* team section styles */
-.team-container{
+.team-container {
   /* border: 1px solid white; */
   max-width: 1150px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
-.team-heading{
+.team-heading {
   color: #fff;
   font-family: var(--primary-font);
   font-size: 3rem;
   font-weight: 900;
   text-align: center;
 }
-.team-subheading{
+.team-subheading {
   color: rgba(255, 255, 255, 0.5);
   font-family: var(--primary-font);
   font-size: 1rem;
@@ -461,7 +490,7 @@ main {
   text-align: center;
   margin-bottom: 60px;
 }
-.team-image-container{
+.team-image-container {
   /* border: 1px solid red; */
   display: flex;
   gap: 20px;
@@ -469,78 +498,108 @@ main {
   background: #222;
   border-radius: 15px;
 }
-.team-divs-1{
+.team-divs-1 {
   /* border: 1px solid yellow; */
   width: 380px;
   height: 560px;
   display: grid;
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
-.team-divs-2{
+.team-divs-2 {
   /* border: 1px solid yellow; */
   width: 380px;
   height: 560px;
   display: grid;
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
-.team-divs-3{
+.team-divs-3 {
   /* border: 1px solid yellow; */
   width: 380px;
   height: 560px;
   display: grid;
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
-.team-image-div-1{
+.team-image-div-1 {
   /* border: 1px solid pink; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer1.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../images/trainer1.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-color:  rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
-.team-image-div-2{
+.team-image-div-2 {
   /* border: 1px solid pink; */
   /* background-image: url(../images/trainer4.png); */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer4.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../images/trainer4.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
 }
-.team-image-div-3{
+.team-image-div-3 {
   /* border: 1px solid pink; */
   /* background-image: url(../images/trainer2.png); */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer2.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../images/trainer2.png) lightgray 50% / cover no-repeat;
   background-position: center;
   /* background-size: cover;
   background-repeat: no-repeat; */
   border-radius: 10px;
 }
-.team-image-div-4{
+.team-image-div-4 {
   /* border: 1px solid pink; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer5.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../images/trainer5.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
 }
-.team-image-div-5{
+.team-image-div-5 {
   /* border: 1px solid pink; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer3.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../images/trainer3.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
 }
-.team-image-div-6{
+.team-image-div-6 {
   /* border: 1px solid pink; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer6.png) lightgray 50% / cover no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(../images/trainer6.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
 }
 /* protein section styles */
-.protein-product-container{
+.protein-product-container {
   max-width: 1150px;
   margin: 0 auto;
   /* border: 1px solid red; */
 }
-.protein-heading{
+.protein-heading {
   color: #fff;
   font-family: var(--primary-font);
   font-size: 3rem;
@@ -548,7 +607,7 @@ main {
   text-align: center;
   margin-bottom: 20px;
 }
-.protein-desc{
+.protein-desc {
   color: rgba(255, 255, 255, 0.5);
   font-family: var(--primary-font);
   font-size: 1rem;
@@ -559,13 +618,13 @@ main {
   text-align: center;
   margin-bottom: 60px;
 }
-.protein-image-container{
+.protein-image-container {
   /* border: 1px solid darkgoldenrod; */
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
-.protein-1{
+.protein-1 {
   width: 270px;
   /* border: 1px solid salmon; */
   text-align: center;
@@ -573,21 +632,21 @@ main {
   backdrop-filter: blur(10px);
   border-radius: 20px;
 }
-.protein-1:hover{
+.protein-1:hover {
   box-shadow: 0px 2px 8px 0px white;
   transition-duration: 0.5s;
 }
-.protein-image-1{
+.protein-image-1 {
   width: 270px;
   /* border: 1px solid blue; */
   height: 350px;
 }
-.protein-image-1>img{
+.protein-image-1 > img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.image-1-desc{
+.image-1-desc {
   color: rgba(255, 255, 255, 0.9);
   font-family: var(--primary-font);
   font-size: 1rem;
@@ -598,7 +657,7 @@ main {
   text-align: center;
   margin-bottom: 20px;
 }
-.image-1-price{
+.image-1-price {
   color: #fff;
   font-family: var(--primary-font);
   font-size: 1.4rem;
@@ -606,7 +665,7 @@ main {
   text-align: center;
   margin-bottom: 20px;
 }
-.protein-btn{
+.protein-btn {
   padding: 10px 25px;
   /* border: 1px solid red; */
   border-radius: 20px;
@@ -618,7 +677,6 @@ main {
   font-weight: 400;
   margin-bottom: 20px;
 }
-
 
 /* media queries for small device */
 @media screen and (max-width: 576px) {
@@ -715,7 +773,7 @@ main {
     gap: 10px;
   }
   main {
-    height: 5000px;
+    height: 6000px;
   }
   .exercise-3,
   .exercise-6 {
@@ -735,13 +793,13 @@ main {
   .exercise-1-2-3 {
     grid-template-columns: 200px 170px;
     padding-left: 10px;
-    
+
     width: 370px;
   }
-  .exercise-1{
+  .exercise-1 {
     width: 200px;
   }
-  .exercise-2{
+  .exercise-2 {
     width: 170px;
   }
   .exercise-2 {
@@ -750,30 +808,45 @@ main {
   .exercise-4-5-6 {
     grid-template-columns: 135px 235px;
     padding-left: 10px;
-    
   }
-  .exercise-4{
+  .exercise-4 {
     width: 135px;
-    background-position-x:30% ;
+    background-position-x: 30%;
   }
-  .exercise-5{
+  .exercise-5 {
     width: 235px;
   }
   .team-image-div-1,
-  .team-image-div-2{
+  .team-image-div-2 {
     display: none;
   }
-  .team-image-container{
+  .team-image-container {
     flex-direction: column;
     display: flex;
     margin-left: 15px;
     margin-right: 15px;
   }
-  .team-divs-1{
+  .team-divs-1 {
     display: none;
   }
   .team-divs-2,
-  .team-divs-3{
+  .team-divs-3 {
     width: 326px;
+  }
+  .protein-image-container {
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid red; */
+    padding: 10px;
+  }
+  .protein-1 {
+    width: 195px;
+  }
+  .protein-image-1 {
+    width: 195px;
+  }
+  .protein-image-1 > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
