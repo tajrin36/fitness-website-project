@@ -19,7 +19,7 @@ body {
 }
 main {
   background-color: #111111;
-  height: 3000px;
+  height: 4000px;
 }
 .head {
   height: 647px;
@@ -181,7 +181,7 @@ main {
 }
 .div-1-para {
   color: rgba(255, 255, 255, 0.65);
-  font-family: Inter;
+  font-family: var(--primary-font);
   font-size: 0.6rem;
   font-style: normal;
   font-weight: 400;
@@ -269,7 +269,7 @@ main {
 .card-desc {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  font-family: Inter;
+  font-family: var(--primary-font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -385,7 +385,7 @@ main {
 }
 .exercise-desc {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
+  font-family: var(--primary-font);
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -397,61 +397,51 @@ main {
   /* border: 1px solid yellow; */
   height: 250px;
   width: 300px;
-  background-image: url(../images/exercise1.jpg);
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url(../images/exercise1.jpg) lightgray 50% / cover no-repeat;
 }
 .exercise-2 {
   /* border: 1px solid blue; */
   height: 250px;
   width: 500px;
-  background-image: url(../images/exercise2.png);
+  background: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%), url(../images/exercise2.png) lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .exercise-3 {
   /* border: 1px solid aqua; */
   height: 250px;
   width: 345px;
-  background-image: url(../images/exercise3.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise3.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
 }
 .exercise-4 {
   /* border: 1px solid magenta; */
   height: 245px;
   width: 400px;
-  background-image: url(../images/exercise4.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise4.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .exercise-5 {
   /* border: 1px solid gold; */
   height: 245px;
   width: 350px;
-  background-image: url(../images/exercise5.jpg);
+  background: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%), url(../images/exercise5.jpg) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .exercise-6 {
   /* border: 1px solid magenta; */
   height: 245px;
   width: 400px;
-  background-image: url(../images/exercise6.jpg);
+  background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url(../images/exercise6.jpg) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 /* team section styles */
 .team-container{
   /* border: 1px solid white; */
   max-width: 1150px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 .team-heading{
   color: #fff;
@@ -462,7 +452,7 @@ main {
 }
 .team-subheading{
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
+  font-family: var(--primary-font);
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -505,52 +495,130 @@ main {
 }
 .team-image-div-1{
   /* border: 1px solid pink; */
-  background-image: url(../images/trainer1.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer1.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color:  rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .team-image-div-2{
   /* border: 1px solid pink; */
-  background-image: url(../images/trainer4.png);
+  /* background-image: url(../images/trainer4.png); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer4.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 10px;
 }
 .team-image-div-3{
   /* border: 1px solid pink; */
-  background-image: url(../images/trainer2.png);
+  /* background-image: url(../images/trainer2.png); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer2.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
   border-radius: 10px;
 }
 .team-image-div-4{
   /* border: 1px solid pink; */
-  background-image: url(../images/trainer5.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer5.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 10px;
 }
 .team-image-div-5{
   /* border: 1px solid pink; */
-  background-image: url(../images/trainer3.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer3.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 10px;
 }
 .team-image-div-6{
   /* border: 1px solid pink; */
-  background-image: url(../images/trainer6.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/trainer6.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 10px;
 }
+/* protein section styles */
+.protein-product-container{
+  max-width: 1150px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.protein-heading{
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.protein-desc{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.protein-image-container{
+  /* border: 1px solid darkgoldenrod; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.protein-1{
+  width: 270px;
+  /* border: 1px solid salmon; */
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+.protein-1:hover{
+  box-shadow: 0px 2px 8px 0px white;
+  transition-duration: 0.5s;
+}
+.protein-image-1{
+  width: 270px;
+  /* border: 1px solid blue; */
+  height: 350px;
+}
+.protein-image-1>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.image-1-desc{
+  color: rgba(255, 255, 255, 0.9);
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image-1-price{
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.protein-btn{
+  padding: 10px 25px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(230, 83, 60, 1);
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
 
 /* media queries for small device */
 @media screen and (max-width: 576px) {
