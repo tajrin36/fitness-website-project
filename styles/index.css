@@ -836,7 +836,6 @@ main {
   .protein-image-container {
     grid-template-columns: repeat(2, 1fr);
     /* border: 1px solid red; */
-    padding: 10px;
   }
   .protein-1 {
     width: 195px;
