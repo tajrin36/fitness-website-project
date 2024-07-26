@@ -465,6 +465,142 @@ main {
     url(../images/exercise6.jpg) lightgray 50% / cover no-repeat;
   background-position: center;
 }
+/* BMI section styles */
+.bmi-title-container {
+  max-width: 700px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  margin-bottom: 70px;
+}
+.bmi-title-heading {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.bmi-title-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.bmi-section {
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  background-color: #222;
+}
+.bmi-div {
+  max-width: 1150px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+  display: flex;
+  gap: 300px;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+.bmi-left-heading {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 33.6px */
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 50px;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+td,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
+}
+th {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+  text-align: left;
+}
+td {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  text-align: left;
+}
+
+.bmi-right-heading {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 33.6px */
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.bmi-right-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+form {
+  gap: 10px;
+  width: 550px;
+}
+.bmi-right input[type="text"],
+.bmi-right select {
+  padding: 12px 40px 12px 20px;
+  width: 260px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  box-sizing: border-box;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--primary-font);
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+#bmi-sex,
+#bmi-activities {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--primary-font);
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+#bmi-activities {
+  width: 535px;
+}
 /* team section styles */
 .team-container {
   /* border: 1px solid white; */
@@ -773,7 +909,7 @@ main {
     gap: 10px;
   }
   main {
-    height: 6000px;
+    height: 7000px;
   }
   .exercise-3,
   .exercise-6 {
@@ -803,7 +939,7 @@ main {
     width: 160px;
   }
   .exercise-2 {
-     background-position-x: 70%;
+    background-position-x: 70%;
     /* background-position-y: 30%;  */
     /* background-position: center; */
     background-size: cover;
@@ -842,14 +978,45 @@ main {
   }
   .protein-1 {
     width: 175px;
+    margin-left: 13px;
+    /* border: 1px solid red; */
   }
   .protein-image-1 {
     width: 175px;
+    height: 180px;
+    /* border: 1px solid red; */
   }
   .protein-image-1 > img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
+  }
+  .bmi-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  table {
+    margin-bottom: 0px;
+  }
+  .bmi-right input[type="text"],
+  .bmi-right select {
+    width: 178px;
+  }
+  #bmi-activities {
+    width: 370px;
+    padding-right: 20px;
+    margin-right: 5px;
+  }
+  .bmi-right input[type="text"],
+  .bmi-right select {
+    margin-right: 0px;
+  }
+  form {
+    width: 370px;
+  }
+  .bmi-title-container{
+    margin-left: 10px;
   }
 }
