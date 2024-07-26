@@ -19,17 +19,15 @@ body {
 }
 main {
   background-color: #111111;
-  height: 4000px;
+  height: 3910px;
 }
 .head {
   height: 647px;
-  /* border: 1px solid red; */
   background: linear-gradient(360deg, #111111 0%, #282828 100%);
 }
 .navbar {
   max-width: 1300px;
   margin: 0 auto;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   padding: 30px;
@@ -84,16 +82,13 @@ main {
   width: 25px;
 }
 
-/* banner styles */
+/* ...........banner styles................... */
 .banner-container {
   max-width: 1300px;
-  /* display: flex;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 500px;
   height: 546px;
-  /* border: 1px solid red; */
   margin: 0 auto;
 
   align-items: center;
@@ -115,15 +110,11 @@ main {
 .banner-left {
   max-width: 400px;
   height: 400px;
-  /* border: 1px solid red; */
 }
 .banner-right {
-  /* border: 1px solid yellow; */
   max-width: 400px;
   height: 530px;
   width: 600px;
-  /* position: relative;
-  top: 50px; */
 }
 .right-img {
   height: 530px;
@@ -142,7 +133,6 @@ main {
 }
 .btn-primary {
   padding: 10px 25px;
-  /* border: 1px solid red; */
   border-radius: 40px;
   border: none;
   background-color: rgba(230, 83, 60, 1);
@@ -190,7 +180,6 @@ main {
 .div-2 {
   max-width: 150px;
   height: 60px;
-  /* border: 1px solid red; */
   border-radius: 12px;
   position: relative;
   bottom: 210px;
@@ -227,10 +216,9 @@ main {
   display: none;
 }
 
-/* habit styles section */
+/* .............habit styles section............... */
 .habit-container {
   max-width: 1300px;
-  /* border: 1px solid red; */
   margin: 0 auto;
   margin-bottom: 50px;
 }
@@ -252,7 +240,6 @@ main {
   color: rgba(255, 255, 255, 0.5);
 }
 .habit-image-container {
-  /* border: 1px solid green; */
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -273,16 +260,14 @@ main {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: 0.3px;
 }
 .card {
-  /* border: 1px solid red; */
   text-align: center;
   max-width: 230px;
 }
 .image {
-  /* border: 1px solid red; */
   text-align: center;
 }
 
@@ -291,11 +276,10 @@ main {
   border: 4px solid rgba(255, 255, 255, 0.1);
 }
 
-/* running section styles */
+/* .............running section styles............. */
 .running-container {
   max-width: 1100px;
   margin: 0 auto;
-  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 30px;
@@ -306,7 +290,6 @@ main {
   margin-bottom: 50px;
 }
 .run-left {
-  /* border: 1px solid yellow; */
   width: 370px;
   height: 300px;
   padding: 10px;
@@ -330,7 +313,6 @@ main {
   font-weight: 900;
 }
 .run-right {
-  /* border: 1px solid green; */
   width: 400px;
   height: 300px;
   background-image: url(../images/run.jpg);
@@ -341,7 +323,6 @@ main {
 }
 .run-button {
   padding: 15px 65px;
-  /* border: 1px solid red; */
   border-radius: 40px;
   border: none;
   background-color: rgba(230, 83, 60, 1);
@@ -350,23 +331,17 @@ main {
   font-size: 1.3rem;
   font-weight: 400;
 }
-/* exercise section styles */
+/* ...............exercise section styles..............*/
 .exercise-container {
   max-width: 1150px;
   margin: 0 auto;
   margin-bottom: 70px;
-  /* border: 1px solid white; */
 }
 .exercise-image-container {
-  /* display: grid;
-  grid-template-columns: 300px 500px 345px;
-  grid-template-rows: 250px 250px; */
   width: 1150px;
   height: 500px;
-  /* border: 1px solid red; */
 }
 .exercise-1-2-3 {
-  /* border: 1px solid pink; */
   display: grid;
   grid-template-columns: 300px 500px 345px;
 }
@@ -379,7 +354,6 @@ main {
   font-family: var(--primary-font);
   font-size: 3rem;
   font-weight: 900;
-  /* text-align: center; */
   margin-bottom: 10px;
   padding-top: 40px;
 }
@@ -389,12 +363,11 @@ main {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: 0.5px;
   margin-bottom: 50px;
 }
 .exercise-1 {
-  /* border: 1px solid yellow; */
   height: 250px;
   width: 300px;
   background-position: center;
@@ -405,8 +378,19 @@ main {
     ),
     url(../images/exercise1.jpg) lightgray 50% / cover no-repeat;
 }
+.exercise-1 p {
+  color: #000;
+  font-family: var(--primary-font);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 90px;
+  position: relative;
+  top: 190px;
+  left: 20px;
+}
 .exercise-2 {
-  /* border: 1px solid blue; */
   height: 250px;
   width: 500px;
   background: linear-gradient(
@@ -417,8 +401,19 @@ main {
     url(../images/exercise2.png) lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
   background-position: center;
 }
+.exercise-2 p {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 90px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
 .exercise-3 {
-  /* border: 1px solid aqua; */
   height: 250px;
   width: 345px;
   background: linear-gradient(
@@ -429,8 +424,19 @@ main {
     url(../images/exercise3.png) lightgray 50% / cover no-repeat;
   background-position: center;
 }
+.exercise-3 p {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 150px;
+  position: relative;
+  top: 190px;
+  left: 80px;
+}
 .exercise-4 {
-  /* border: 1px solid magenta; */
   height: 245px;
   width: 400px;
   background: linear-gradient(
@@ -441,8 +447,19 @@ main {
     url(../images/exercise4.png) lightgray 50% / cover no-repeat;
   background-position: center;
 }
+.exercise-4 p {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 150px;
+  position: relative;
+  left: 200px;
+  top: 20px;
+}
 .exercise-5 {
-  /* border: 1px solid gold; */
   height: 245px;
   width: 350px;
   background: linear-gradient(
@@ -453,8 +470,19 @@ main {
     url(../images/exercise5.jpg) lightgray 50% / cover no-repeat;
   background-position: center;
 }
+.exercise-5 p {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 150px;
+  position: relative;
+  top: 190px;
+  left: 80px;
+}
 .exercise-6 {
-  /* border: 1px solid magenta; */
   height: 245px;
   width: 400px;
   background: linear-gradient(
@@ -465,11 +493,22 @@ main {
     url(../images/exercise6.jpg) lightgray 50% / cover no-repeat;
   background-position: center;
 }
-/* BMI section styles */
+.exercise-6 p {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 150px;
+  position: relative;
+  top: 190px;
+  left: 80px;
+}
+/* .............BMI section styles................... */
 .bmi-title-container {
   max-width: 700px;
   margin: 0 auto;
-  /* border: 1px solid red; */
   margin-bottom: 70px;
 }
 .bmi-title-heading {
@@ -486,19 +525,17 @@ main {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: 0.5px;
   text-align: left;
 }
 .bmi-section {
   margin: 0 auto;
-  /* border: 1px solid red; */
   background-color: #222;
 }
 .bmi-div {
   max-width: 1150px;
   margin: 0 auto;
-  /* border: 1px solid pink; */
   display: flex;
   gap: 300px;
   padding: 20px;
@@ -510,7 +547,7 @@ main {
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%; /* 33.6px */
+  line-height: 120%;
   margin-top: 35px;
   margin-bottom: 35px;
   margin-left: 50px;
@@ -531,7 +568,7 @@ th {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 19.2px */
+  line-height: 120%;
   text-align: left;
 }
 td {
@@ -540,7 +577,7 @@ td {
   font-size: 0.7rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 16.8px */
+  line-height: 120%;
   text-align: left;
 }
 
@@ -550,7 +587,7 @@ td {
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 120%; /* 33.6px */
+  line-height: 120%;
   margin-top: 35px;
   margin-bottom: 15px;
 }
@@ -560,7 +597,7 @@ td {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: 0.5px;
   text-align: left;
   margin-bottom: 15px;
@@ -587,7 +624,7 @@ input::placeholder {
   font-size: 0.7rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px; /* 137.5% */
+  line-height: 22px;
 }
 #bmi-sex,
 #bmi-activities {
@@ -596,14 +633,13 @@ input::placeholder {
   font-size: 0.7rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px; /* 137.5% */
+  line-height: 22px;
 }
 #bmi-activities {
   width: 535px;
 }
-/* team section styles */
+/* .............team section styles.............. */
 .team-container {
-  /* border: 1px solid white; */
   max-width: 1150px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -621,13 +657,12 @@ input::placeholder {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: 0.5px;
   text-align: center;
   margin-bottom: 60px;
 }
 .team-image-container {
-  /* border: 1px solid red; */
   display: flex;
   gap: 20px;
   padding: 30px;
@@ -635,7 +670,6 @@ input::placeholder {
   border-radius: 15px;
 }
 .team-divs-1 {
-  /* border: 1px solid yellow; */
   width: 380px;
   height: 560px;
   display: grid;
@@ -643,7 +677,6 @@ input::placeholder {
   gap: 20px;
 }
 .team-divs-2 {
-  /* border: 1px solid yellow; */
   width: 380px;
   height: 560px;
   display: grid;
@@ -651,7 +684,6 @@ input::placeholder {
   gap: 20px;
 }
 .team-divs-3 {
-  /* border: 1px solid yellow; */
   width: 380px;
   height: 560px;
   display: grid;
@@ -659,7 +691,6 @@ input::placeholder {
   gap: 20px;
 }
 .team-image-div-1 {
-  /* border: 1px solid pink; */
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
@@ -669,10 +700,30 @@ input::placeholder {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  position: relative;
+}
+.team-text-container {
+  position: absolute;
+  top: 210px;
+  left: 30px;
+}
+.text-content-heading {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+.text-content-para {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 }
 .team-image-div-2 {
-  /* border: 1px solid pink; */
-  /* background-image: url(../images/trainer4.png); */
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
@@ -681,10 +732,9 @@ input::placeholder {
     url(../images/trainer4.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
+  position: relative;
 }
 .team-image-div-3 {
-  /* border: 1px solid pink; */
-  /* background-image: url(../images/trainer2.png); */
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
@@ -692,12 +742,10 @@ input::placeholder {
     ),
     url(../images/trainer2.png) lightgray 50% / cover no-repeat;
   background-position: center;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
   border-radius: 10px;
+  position: relative;
 }
 .team-image-div-4 {
-  /* border: 1px solid pink; */
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
@@ -706,9 +754,9 @@ input::placeholder {
     url(../images/trainer5.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
+  position: relative;
 }
 .team-image-div-5 {
-  /* border: 1px solid pink; */
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
@@ -717,9 +765,9 @@ input::placeholder {
     url(../images/trainer3.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
+  position: relative;
 }
 .team-image-div-6 {
-  /* border: 1px solid pink; */
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
@@ -728,11 +776,13 @@ input::placeholder {
     url(../images/trainer6.png) lightgray 50% / cover no-repeat;
   background-position: center;
   border-radius: 10px;
+  position: relative;
 }
-/* protein section styles */
+/* .................protein section styles............... */
 .protein-product-container {
   max-width: 1150px;
   margin: 0 auto;
+  margin-bottom: 50px;
   /* border: 1px solid red; */
 }
 .protein-heading {
@@ -749,20 +799,18 @@ input::placeholder {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: 0.5px;
   text-align: center;
   margin-bottom: 60px;
 }
 .protein-image-container {
-  /* border: 1px solid darkgoldenrod; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 .protein-1 {
   width: 270px;
-  /* border: 1px solid salmon; */
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -774,7 +822,6 @@ input::placeholder {
 }
 .protein-image-1 {
   width: 270px;
-  /* border: 1px solid blue; */
   height: 350px;
 }
 .protein-image-1 > img {
@@ -788,7 +835,7 @@ input::placeholder {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: 0.5px;
   text-align: center;
   margin-bottom: 20px;
@@ -803,7 +850,6 @@ input::placeholder {
 }
 .protein-btn {
   padding: 10px 25px;
-  /* border: 1px solid red; */
   border-radius: 20px;
   border: none;
   background-color: rgba(230, 83, 60, 1);
@@ -813,9 +859,92 @@ input::placeholder {
   font-weight: 400;
   margin-bottom: 20px;
 }
+/* ..............footer section styles............. */
+.footer-container {
+  margin: 0 auto;
+  height: 310px;
+  background-color: #222;
+  padding-top: 45px;
+}
+.footer-div-1 {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  gap: 200px;
+  margin-bottom: 50px;
+}
+.footer-div-2 {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.footer-subdiv-1 {
+  width: 400px;
+}
+.footer-title {
+  color: #e6533c;
+  font-family: var(--primary-font);
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+.footer-desc {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.footer-heading {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+.footer-subdiv-2,
+.footer-subdiv-3 {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+.footer-subdiv-2 a,
+.footer-subdiv-3 a {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 27.6px */
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.footer-div-2 hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-div-2 p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
 
 /* media queries for small device */
 @media screen and (max-width: 576px) {
+
+  /* ................navbar styles............. */
   .nav-list {
     display: none;
   }
@@ -829,26 +958,22 @@ input::placeholder {
   .menu {
     display: block;
   }
+
+  /* ................banner styles............. */
   .banner-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
-    /* padding: 10px;
-    gap: 80px; */
   }
   .banner-left {
-    /* width: 100%; */
     width: 370px;
-    /* border: 1px solid white; */
     height: 350px;
     padding-left: 5px;
-    /* padding: 20px; */
   }
   .banner-right {
     width: 100%;
   }
   .head {
     height: 1010px;
-    /* border: 1px solid red; */
   }
   .div-1 {
     position: relative;
@@ -870,20 +995,22 @@ input::placeholder {
     position: relative;
     left: 50px;
   }
+
+  /* ................habits styles............. */
   .habit-image-container {
     grid-template-columns: repeat(1, 1fr);
-    /* border: 1px solid red; */
     width: 200px;
     gap: 15px;
   }
   .habit-container {
-    /* border: 1px solid yellow; */
     width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
+  /* ................running styles............. */
   .running-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -898,7 +1025,6 @@ input::placeholder {
     border-radius: 18px;
   }
   .run-left {
-    /* border: 1px solid red; */
     width: 300px;
   }
   .run-head {
@@ -909,17 +1035,15 @@ input::placeholder {
     gap: 10px;
   }
   main {
-    height: 7000px;
+    height: 6250px;
   }
+
+  /* ................exercise styles............. */
   .exercise-3,
   .exercise-6 {
     display: none;
   }
-  .exercise-container {
-    /* border: 1px solid red; */
-  }
   .exercise-image-container {
-    /* border: 1px solid yellow; */
     width: 370px;
   }
   .exercise-heading,
@@ -940,8 +1064,6 @@ input::placeholder {
   }
   .exercise-2 {
     background-position-x: 70%;
-    /* background-position-y: 30%;  */
-    /* background-position: center; */
     background-size: cover;
   }
   .exercise-4-5-6 {
@@ -952,9 +1074,14 @@ input::placeholder {
     width: 135px;
     background-position-x: 30%;
   }
+  .exercise-4 p {
+    display: none;
+  }
   .exercise-5 {
     width: 230px;
   }
+
+  /* ................teams styles............. */
   .team-image-div-1,
   .team-image-div-2 {
     display: none;
@@ -972,19 +1099,18 @@ input::placeholder {
   .team-divs-3 {
     width: 326px;
   }
+
+  /* ................unique part styles............. */
   .protein-image-container {
     grid-template-columns: repeat(2, 1fr);
-    /* border: 1px solid red; */
   }
   .protein-1 {
     width: 175px;
     margin-left: 13px;
-    /* border: 1px solid red; */
   }
   .protein-image-1 {
     width: 175px;
     height: 180px;
-    /* border: 1px solid red; */
   }
   .protein-image-1 > img {
     height: 100%;
@@ -992,6 +1118,8 @@ input::placeholder {
     object-fit: contain;
     object-position: center;
   }
+
+  /* ................bmi styles............. */
   .bmi-div {
     display: flex;
     flex-direction: column;
@@ -1016,7 +1144,20 @@ input::placeholder {
   form {
     width: 370px;
   }
-  .bmi-title-container{
+  .bmi-title-container {
     margin-left: 10px;
+  }
+  /* ................footer styles............. */
+  .footer-container{
+    height: 750px;
+  }
+  .footer-div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+  .footer-div-2{
+    width: 350px;
   }
 }
